@@ -15,7 +15,7 @@ module.exports = {
             + `${qualitaReactionId} Qualita\n`
             + `${rwdReactionId} Redwoods & Event Event`);
 
-        let messageEmbed = await msg.channel.send(embed);
+        let messageEmbed = await client.channels.cache.get(channel).send(embed);
         messageEmbed.react(qualitaReactionId);
         messageEmbed.react(rwdReactionId);
 
