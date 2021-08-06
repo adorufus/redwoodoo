@@ -2,7 +2,7 @@ module.exports = {
     name: "reactionrole",
     description: "assign user's role by reacting to reaction",
     async execute(msg, args, Discord, client) {
-        const channel = '873069265824129085';
+        const channel = '872766630097215518';
         const qualitaRole = msg.guild.roles.cache.find(role => role.name === "Qualita Production");
         const rwdRole = msg.guild.roles.cache.find(role => role.name === "Redwoods & Eventevent");
         const qualitaReactionId = '🇶';
