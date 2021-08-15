@@ -33,7 +33,7 @@ module.exports = {
         const videoGraphRole = msg.guild.roles.cache.find(role => role.name === "Video Grapher");
         const artDirectorRole = msg.guild.roles.cache.find(role => role.name === "Art Director");
 
-        if (args[0] != null && args[0] == 'job') {
+        if (args[0] == 'job') {
             let embed = new Discord.MessageEmbed()
                 .setColor('#e42643')
                 .setTitle('Pencet Reaction Yang Sesuai Dengan Job Kalian Ya~~')
@@ -189,7 +189,7 @@ module.exports = {
                 }
 
             });
-        } else {
+        } else if(args[0] == 'dept') {
             let embed = new Discord.MessageEmbed()
                 .setColor('#e42643')
                 .setTitle('Pencet Reaction Yang Sesuai Dengan Departement Kalian Yaa~')
