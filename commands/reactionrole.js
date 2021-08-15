@@ -27,7 +27,7 @@ module.exports = {
         const graphicDesignRole = msg.guild.roles.cache.find(role => role.name === "Graphic Designer");
         const digiMarketRole = msg.guild.roles.cache.find(role => role.name === "Digital Marketing");
         const copywriterRole = msg.guild.roles.cache.find(role => role.name === "Copywriter");
-        const hoaRole = msg.guild.roles.cache.find(role => role.name === "Head Of Account");
+        const hoaRole = msg.guild.roles.cache.find(role => role.name === "Head of Account");
         const socialMediaRole = msg.guild.roles.cache.find(role => role.name === "Social Media");
         const projectCoordinatorRole = msg.guild.roles.cache.find(role => role.name === "Project Coordinator");
         const videoGraphRole = msg.guild.roles.cache.find(role => role.name === "Video Grapher");
