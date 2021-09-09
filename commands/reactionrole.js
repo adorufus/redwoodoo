@@ -3,7 +3,7 @@ module.exports = {
     description: "assign user's role by reacting to reaction",
     async execute(msg, args, Discord, client) {
         const deptChannel = '872766630097215518';
-        const jobRwdChannel = '875769397464158288';
+        const jobRwdChannel = '885762733616803871';
 
         //departement stuff
         const qualitaRole = msg.guild.roles.cache.find(role => role.name === "Qualita Production");
